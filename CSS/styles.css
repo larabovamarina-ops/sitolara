@@ -1,0 +1,97 @@
+/* Reset generale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Header - Il rettangolo lilla */
+header {
+    background-color: #f3e5f5;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: #9c27b0;
+    font-size: 2.5rem;
+}
+
+/* Container principale per le sezioni */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Stile per ogni blocco (Testo + Immagine) */
+.section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+/* Invertire l'ordine per la sezione centrale */
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Testi */
+.text-content {
+    flex: 1;
+}
+
+.text-content h2 {
+    color: #9c27b0;
+    border-bottom: 2px solid #9c27b0;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.text-content p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+/* Sottotitoli rossi */
+.highlight-red {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+/* Immagini */
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #f3e5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
